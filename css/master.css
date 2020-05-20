@@ -34,5 +34,17 @@
     margin-top: 40px
   }
 
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+}
+
+/* bonus */
+
+@media screnn and () {
 
 }
