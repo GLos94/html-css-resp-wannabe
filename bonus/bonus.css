@@ -1,9 +1,12 @@
-
-@media screen and (max-width: 419px) {
-
+@media screen and (max-width: 768px) {
   .row{
-    width: 70%;
+    width: 40%;
     margin: 0 auto;
+  }
+
+  img{
+    height: auto;
+    max-width: 100%;
   }
 
   #lezioni .row>.left,
@@ -12,11 +15,6 @@
     float: none;
     margin: 0 auto;
     margin-top: 40px
-  }
-
-  img{
-    height: auto;
-    max-width: 100%;
   }
 
   #steps h1{
@@ -40,6 +38,10 @@
   #why .row>.third {
     width: 100%;
     margin-top: 40px;
+  }
+
+  #why .row img{
+    padding: 2% 2%;
   }
 
 }
